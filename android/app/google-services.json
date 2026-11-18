@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23775695183",
+    "project_id": "ridebound-66ab3",
+    "storage_bucket": "ridebound-66ab3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23775695183:android:575d46b27ce0a8fae6753a",
+        "android_client_info": {
+          "package_name": "com.example.ridebound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxexr_qbmrPcR_8_SyCPJLtY8SR9offXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

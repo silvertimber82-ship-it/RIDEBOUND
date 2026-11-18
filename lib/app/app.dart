@@ -1,6 +1,8 @@
+
 import 'package:flutter/material.dart';
+
 import '../core/theme/theme.dart';
-import '../features/trips/screens/home_screen.dart';
+import 'splash_screen.dart';
 
 class RideBoundApp extends StatelessWidget {
   const RideBoundApp({super.key});
@@ -10,11 +12,13 @@ class RideBoundApp extends StatelessWidget {
     return MaterialApp(
       title: 'RideBound',
       debugShowCheckedModeBanner: false,
-
-      // Uses the theme defined in lib/theme/theme.dart
       theme: AppTheme.darkTheme,
-
-      home: const HomeScreen(),
+      builder: (context, child) {
+        return SafeArea(
+          child: child ?? const SizedBox.shrink(),
+        );
+      },
+      home: const SplashScreen(),
     );
   }
 }
